@@ -164,23 +164,6 @@ The project has the following structure:
 - `digital_copy/telegram_bot_for_debug`: light version of telegram bot for debug
 - `digital_copy/tg_dump_parser.py`: telegram gualogues dump parser 
 
-## How to run
-
-#### Google Colab debug version 
-
-
-1. Insert bot token in notebook and run all cells [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kDaW-x9D0AJjTdoWnpkkI3EC4vi6nN_X?usp=sharing)
-
-
-#### Full version
-
-1. Insert bot token in [bot.py](https://github.com/tttonyalpha/digital_copy/blob/main/telegram_bot/bot.py) 
-2. From ```app``` run
-
-```
-docker-compose up --build
-```
-
 
 
 
@@ -189,7 +172,7 @@ docker-compose up --build
 
 - [x] Topic modeling 
 - [x] News summarizing
-- [x] News Classificator
+- [x] News classificator
 
 - [ ] News deduplication
 - [ ] App for news scrapping
@@ -212,35 +195,6 @@ Mail: tttonyalpha@gmail.com
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-
-## References
-
-<a id="1">[1]</a> 
-Towards a Human-like Open-Domain Chatbot.
-Daniel Adiwardana, Minh-Thang Luong, David R. So, Jamie Hall, Noah Fiedel, Romal Thoppilan, Zi Yang, Apoorv Kulshreshtha, Gaurav Nemade, Yifeng Lu, Quoc V. Le<br>
-[arXiv:2001.09977](https://arxiv.org/abs/2001.09977)
-
-<a id="2">[2]</a> 
-LoRA: Low-Rank Adaptation of Large Language Models
-Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen <br>
-[arXiv:2106.09685](https://arxiv.org/abs/2106.09685)
-
-<a id="3">[3]</a> 
-Training language models to follow instructions with human feedback
-Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe<br>
-[arXiv:2203.02155](https://arxiv.org/abs/2203.02155)
-
-<a id="4">[4]</a> 
-Scaling Instruction-Finetuned Language Models.<br>
-Team from Google.<br>
-[arXiv:2210.11416](https://arxiv.org/abs/2210.11416)
-
-<a id="5">[5]</a> 
-Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. <br>
-Nils Reimers, Iryna Gurevych. <br>
-[arXiv:1908.10084](https://arxiv.org/abs/1908.10084)
-
 
 
 
