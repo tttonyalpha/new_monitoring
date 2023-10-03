@@ -1,0 +1,9 @@
+transformers==4.33.2 
+sentencepiece==0.1.99
+accelerate
+bitsandbytes
+optimum
+hdbscan 
+umap-learn 
+torch
+sklearn
