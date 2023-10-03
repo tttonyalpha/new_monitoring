@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/tttonyalpha/digital_copy">
+  <a href="https://github.com/tttonyalpha/news_monitoring">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,14 +39,14 @@
   <p align="center">
     Prototype for news monitoring service with preprocessing.
     <br />
-    <a href="https://github.com/tttonyalpha/digital_copy"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tttonyalpha/news_monitoring"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tttonyalpha/digital_copy">View Demo</a>
+    <a href="https://github.com/tttonyalpha/news_monitoring">View Demo</a>
     ·
-    <a href="https://github.com/tttonyalpha/digital_copy/issues">Report Bug</a>
+    <a href="https://github.com/tttonyalpha/news_monitoring/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tttonyalpha/digital_copy/issues">Request Feature</a>
+    <a href="https://github.com/tttonyalpha/news_monitoring/issues">Request Feature</a>
   </p>
 </div>
 
