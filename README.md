@@ -37,7 +37,7 @@
 <h3 align="center">News monitoring service</h3>
 
   <p align="center">
-    Prototype for news monitoring service with preprocessing.
+    Prototype for news monitoring service 
     <br />
     <a href="https://github.com/tttonyalpha/news_monitoring"><strong>Explore the docs »</strong></a>
     <br />
@@ -158,12 +158,10 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 ## Project structure
 
 The project has the following structure:
-- `digital_copy/app`: Flask app for model 
-- `digital_copy/models_traning`: `.py` scripts with model fine-tuning  
-- `digital_copy/telegram_bot`: Telegram bot scripts and Dockerfile for conterization  
-- `digital_copy/telegram_bot_for_debug`: light version of telegram bot for debug
-- `digital_copy/tg_dump_parser.py`: telegram gualogues dump parser 
-
+- `news_monitoring/eda`: clustering scripts  
+- `news_monitoring/models`: `.py` scripts with summarization and classification models
+- `news_monitoring/preprocessing`: `.py` scripts with text preprocessing 
+- `news_monitoring/preprocessing/news_monitoring.ipynb`: inference notebook 
 
 
 
