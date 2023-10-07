@@ -90,8 +90,11 @@ The main task of news monitoring is to process the incoming stream of news, iden
 For this project, a pre-selected set of training and testing data was used. More details about the data analysis can be found below.
 
 The training dataset consists of 1.6k samples, with 19 percent being target texts. The remaining texts were chosen in a way that it is initially difficult to determine whether they are target texts or not.
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/0b62eb12-63cb-4183-b0d6-52781788ef26)
+
 
 The testing dataset is a set of 10k samples collected from various news sources over the course of one week.
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/d17b66a0-fdbb-40ba-b52d-df24e4352305)
 
 
 ## Topic modeling
