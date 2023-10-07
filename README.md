@@ -100,12 +100,12 @@ To get sentence embeddings I used model [cointegrated/rubert-tiny2](https://habr
 
 ## Summarization 
 
-For texts with more than 512 tokens, we will summarize them to fit into the classifier. Below is the summarizer code
+For texts with more than 512 tokens, we will summarize them to fit into the classifier
 
-### Choosing a method: extractive vs abstractive summarization
+#### Choosing a method: extractive vs abstractive summarization
 I decided to use the abstractive model, despite the fact that extractive models work faster in this case. My choice is justified by the fact that the texts in the test set are quite large, there may be several different topics, and an extractive model may not extract what we need from such text.
 
-### Model selection 
+#### Model selection 
 
 I chose the model [mbart_ru_sum_gazeta](https://huggingface.co/IlyaGusev/mbart_ru_sum_gazeta) because it is trained for summarizing news in Russian and adapted to the domain of our data. Additionally, in the model author's article about the training dataset, you can see that the distribution of the number of tokens per sentence in the test set and the model's output is suitable for our task. [arxiv:2006.11063](https://arxiv.org/pdf/2006.11063.pdf)
 
