@@ -91,15 +91,26 @@ For this project, a pre-selected set of training and testing data was used. More
 
 The training dataset consists of 1.6k samples, with 19 percent being target texts. The remaining texts were chosen in a way that it is initially difficult to determine whether they are target texts or not.
 ![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/0b62eb12-63cb-4183-b0d6-52781788ef26)
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/8df7e902-81d1-4820-aa68-49da45b6b9aa)
+
 
 
 The testing dataset is a set of 10k samples collected from various news sources over the course of one week.
 ![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/d17b66a0-fdbb-40ba-b52d-df24e4352305)
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/be30d831-31d4-46f5-8369-09f17c909935)
+
 
 
 ## Topic modeling
 
 To get sentence embeddings I used model [cointegrated/rubert-tiny2](https://habr.com/ru/articles/669674/), which were trained to produce high-quality sentence embeddings. Then I reduced the dimensions of the embeddings using UMAP and clustered them using HDBSCAN. To tune hyperparameters and score clusters I used [Bayesian optimization with Hyperopt](https://github.com/hyperopt/hyperopt)
+
+#### Train
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/bcdeaa4e-d5fc-40ca-a162-9f80fae9db26)
+
+#### Test
+![image](https://github.com/tttonyalpha/news_monitoring/assets/79598074/eb2b2a17-620a-458f-a7b9-4ab0a7948a77)
+
 
 ## Summarization 
 
@@ -111,7 +122,6 @@ I decided to use the abstractive model, despite the fact that extractive models 
 #### Model selection 
 
 I chose the model [mbart_ru_sum_gazeta](https://huggingface.co/IlyaGusev/mbart_ru_sum_gazeta) because it is trained for summarizing news in Russian and adapted to the domain of our data. Additionally, in the model author's article about the training dataset, you can see that the distribution of the number of tokens per sentence in the test set and the model's output is suitable for our task. [arxiv:2006.11063](https://arxiv.org/pdf/2006.11063.pdf)
-
 
 ## Classification 
 
